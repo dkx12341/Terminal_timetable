@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{e9119e9b-ab04-48d7-836f-fd6322578a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Log_in_menu">
+      <UniqueIdentifier>{2b24e2e4-9ee3-44e8-9e24-20fe525c0ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\User_timetable">
+      <UniqueIdentifier>{bc6e6fd5-a210-4d33-9d0f-86bc136be112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc_functions">
+      <UniqueIdentifier>{413a4cf9-0a16-4f89-b468-58e28bfb746f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Create_new_account">
+      <UniqueIdentifier>{4f27ffbe-bdf5-43c4-aad6-c790fe1bc82c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project_sem_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Menu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Log_in_menu.cpp">
+      <Filter>Source Files\Log_in_menu</Filter>
+    </ClCompile>
+    <ClCompile Include="User_timetable.cpp">
+      <Filter>Source Files\User_timetable</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc_functions.cpp">
+      <Filter>Source Files\Misc_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="New_account_menu.cpp">
+      <Filter>Source Files\Create_new_account</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main_Menu.h">
+      <Filter>Source Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Log_in_menu.h">
+      <Filter>Source Files\Log_in_menu</Filter>
+    </ClInclude>
+    <ClInclude Include="User_timetable.h">
+      <Filter>Source Files\User_timetable</Filter>
+    </ClInclude>
+    <ClInclude Include="Date_struct.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc_functions.h">
+      <Filter>Source Files\Misc_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="New_account_menu.h">
+      <Filter>Source Files\Create_new_account</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
